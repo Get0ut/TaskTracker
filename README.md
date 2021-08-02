@@ -13,4 +13,4 @@ These classes have all businnes logic and send/recive data from the DataContext.
 
 Businnes logic classes also use general Priority.cs which contains an enum with values of priority (low,mid,high)
 
-There are also 2 files: TaskStatus.cs and ProjectStatus.cs. They contain an enum for Task and Projects status
+There are also 2 files: TaskStatus.cs and ProjectStatus.cs. They contain an enum for Task and Projects status.
