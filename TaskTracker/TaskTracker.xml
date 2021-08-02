@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TaskTracker</name>
+    </assembly>
+    <members>
+        <member name="M:TaskTracker.Controllers.ProjectController.GetProjects">
+            <summary>
+            Get all projects
+            </summary>
+        </member>
+        <member name="M:TaskTracker.Controllers.ProjectController.GetTasks(System.Int64)">
+            <summary>
+            Get project's tasks
+            </summary>
+        </member>
+        <member name="M:TaskTracker.Controllers.ProjectController.AddProject(System.String,TaskTracker.Models.Priority)">
+            <summary>
+            Add new project
+            </summary>
+        </member>
+        <member name="M:TaskTracker.Controllers.ProjectController.UpdateProject(System.Int64,TaskTracker.Models.ProjectStatus,System.String)">
+            <summary>
+            Update project
+            </summary>
+        </member>
+        <member name="M:TaskTracker.Controllers.ProjectController.Delete(System.Int64)">
+            <summary>
+            Delete project
+            </summary>
+            <param name="id"></param>
+        </member>
+        <member name="M:TaskTracker.Controllers.TaskController.GetTasks">
+            <summary>
+            Get all Tasks
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TaskTracker.Controllers.TaskController.AddTask(System.String,System.String,System.Int32,TaskTracker.Models.Priority)">
+            <summary>
+            Add new task
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:TaskTracker.Controllers.TaskController.UpdateTask(System.Int64,System.String,System.String,TaskTracker.Models.TaskStatus)">
+            <summary>
+            Update Task
+            </summary>
+        </member>
+        <member name="M:TaskTracker.Controllers.TaskController.Delete(System.Int64)">
+            <summary>
+            Delete Task
+            </summary>
+        </member>
+    </members>
+</doc>
